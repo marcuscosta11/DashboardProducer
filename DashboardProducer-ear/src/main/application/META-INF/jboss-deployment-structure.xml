@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-deployment-structure>
+   <deployment>
+      <dependencies>
+         <module name="org.jboss.xnio" export="true" />
+         <module name="org.jboss.remoting" export="true" />
+         <module name="org.jboss.ejb-client" export="true" />
+      </dependencies>
+   </deployment>
+</jboss-deployment-structure>

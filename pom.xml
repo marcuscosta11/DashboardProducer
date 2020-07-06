@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <parent>
+	<groupId>br.gov.cemaden.framework.main</groupId>
+	<artifactId>CemadenMainWithDependencies</artifactId>
+	<version>1.0.0</version>
+    </parent>
+    
+    <!--<scm>
+	<connection>scm:git:${versioning_git.ssh}/__CAMINHO_DO_REPOSITORIO.git</connection>
+	<developerConnection>scm:git:${versioning_git.ssh}/__CAMINHO_DO_REPOSITORIO.git</developerConnection>
+	<url>${versioning_git.url}/__CAMINHO_DO_REPOSITORIO</url>
+    </scm>-->
+    
+    <groupId>br.gov.cemaden.pcds.dashboard</groupId>
+    <artifactId>DashboardProducer</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    
+    <name>DashboardProducer</name>
+    <modules>
+        <module>DashboardProducer-ear</module>
+        <module>DashboardProducer-ejb</module>
+    </modules>
+    
+</project>
