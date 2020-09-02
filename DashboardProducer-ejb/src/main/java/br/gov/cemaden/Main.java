@@ -18,9 +18,10 @@ public class Main {
     private SgrpQuadroGeralDAOLocal sgrpQuadroGeralDAOLocal;
 
     Date data = new Date();
-    SimpleDateFormat formatador = new SimpleDateFormat("dd/MM/yyyy HH:MM:SS");
+    SimpleDateFormat formatador = new SimpleDateFormat("dd/MM/yyyy");
 
-    @Schedule(hour = "*", minute = "*/2", second = "*/59", dayOfWeek = "*", year = "*", persistent = false)
+//    @Schedule(hour = "*", minute = "*/2", second = "*/59", dayOfWeek = "*", year = "*", persistent = false)
+    @Schedule(minute = "*/7", hour = "*", persistent = false)
     public void perform() throws IOException, InterruptedException {
 
         System.out.println("<<< DashBoardProducer 1.0 >>>");
